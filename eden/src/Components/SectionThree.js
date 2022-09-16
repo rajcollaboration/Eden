@@ -26,6 +26,12 @@ const SectionThree = () => {
     return (
         <div className='w-100'>
             <div className='section_three'>
+                <div className='body_Title mt-5'>
+                    <h4 className='text-center' style={{ textAlign: "center" }}>Are you planning to use Eden?</h4>
+                    <p className='body_subtitle'>
+                        We,ll streamline you setup experience accordingly
+                    </p>
+                </div>
                 <Row>
                     <Col>
                         <div className={singleactive ? 'single_wraper blueborder' : 'single_wraper grayborder'} onClick={() => setSingle('single')}>
