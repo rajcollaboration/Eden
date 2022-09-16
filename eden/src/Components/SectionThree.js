@@ -35,7 +35,7 @@ const SectionThree = () => {
                 <Row>
                     <Col>
                         <div className={singleactive ? 'single_wraper blueborder' : 'single_wraper grayborder'} onClick={() => setSingle('single')}>
-                            <div className='icon'>
+                            <div className={singleactive?'iconcolor':'icon'}>
                                 <span className="material-symbols-outlined">
                                     person
                                 </span>
@@ -50,7 +50,7 @@ const SectionThree = () => {
                     </Col>
                     <Col>
                         <div className={teameactive ? 'team_wraper blueborder' : 'team_wraper grayborder'} onClick={() => setSingle('team')}>
-                            <div className='icon'>
+                            <div className={teameactive?'iconcolor':'icon'}>
                                 <span className="material-symbols-outlined">
                                     group
                                 </span>

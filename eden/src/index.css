@@ -32,6 +32,8 @@ code {
   text-align: center;
   border: 1px solid gray;
   font-size: small;
+  transition: all 0.5s;
+  transition-delay: 0.2s;
 }
 .stausbar_body{
   display: flex;
@@ -46,7 +48,7 @@ code {
 }
 .base_line{
   width: 100%;
-  height: 1px;
+  height: 2px;
   background-color: rgb(177, 177, 177);
   position: absolute;
   top: 47%;
@@ -72,6 +74,8 @@ code {
   background-color: #664de5;
   position: absolute;
   top: 46%;
+  transition: width 1s;
+  z-index: 9;
 }
 
 .single_wraper{
@@ -87,8 +91,12 @@ code {
 .blueborder{
   border: 2px solid #664de5 !important;
 }
+.iconcolor{
+  color: #664de5;
+}
 .grayborder{
   border: 2px solid rgb(228, 222, 222);
+  transition: all 1s;
 }
 .single_body p {
   margin-top: 0;
@@ -116,6 +124,7 @@ code {
     padding: 0;
     margin: 41px 10px;
     font-size: 45px;
+    
 }
 .body_Title{
   text-align: center;
@@ -123,7 +132,6 @@ code {
 .bg_color{
   background-color: #664de5  !important;
   width: 100%;
- 
 }
 
 
