@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +10,103 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.Image_Size{
+  width: 60px;
+}
+.bg{
+  background-color: #664de5;
+}
+.edenLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 999;
+  text-align: center;
+  border: 1px solid gray;
+  font-size: small;
+}
+.stausbar_body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.base_line{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(177, 177, 177);
+  position: absolute;
+  top: 47%;
+}
+.statusbar_wraper{
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+.body_subtitle{
+  color: gray;
+  text-align: center;
+}
+.right{
+  text-align: start !important;
+}
+.first_part{
+  background-color: #664de5;
+  color: white;
+}
+.base_line2{
+  height: 2px;
+  background-color: #664de5;
+  position: absolute;
+  top: 46%;
+}
+
+.single_wraper{
+  border: 1px solid #664de5;
+  padding: 13px;
+  width: 80%;
+  float: right;
+  margin: 15px;
+  border-radius: 7px;
+}
+.single_body p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 11px;
+  color: gray;
+}
+.single_body h5{
+  font-size: 14px;
+}
+.team_wraper{
+  border: 1px solid rgb(228, 222, 222);
+  padding: 13px;
+  width: 80%;
+  margin: 15px;
+  border-radius: 7px;
+}
+.coustom{
+  background: #664de5;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #664de5;
+    border-radius: 50%;
+    background-size: contain;
+    padding: 0;
+    margin: 41px 10px;
+    font-size: 45px;
+}
+.body_Title{
+  text-align: center;
+}
+.bg_color{
+  background-color: #664de5  !important;
 }
